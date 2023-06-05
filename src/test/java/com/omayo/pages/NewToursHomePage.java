@@ -21,7 +21,7 @@ public class NewToursHomePage {
 		}
 
 
-
+                // getter method
 		public WebElement getRegisterLink() {
 			setRegisterLink();
 			return registerLink;
