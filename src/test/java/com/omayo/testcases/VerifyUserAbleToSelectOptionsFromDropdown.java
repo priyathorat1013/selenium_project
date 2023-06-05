@@ -32,7 +32,7 @@ public class VerifyUserAbleToSelectOptionsFromDropdown {
 		//create object of OmayoHomePage
 		omayoHomePage=new OmayoHomePage(driver);
 	}
-	@Test
+	@Test(priority = 0)
 	public void verifyUserAbleToSelectOptionsFromDropdown()
 	{
 		omayoHomePage.selectMultiSelectDropdownOption("Volvo");
